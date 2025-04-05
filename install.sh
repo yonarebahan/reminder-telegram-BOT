@@ -22,10 +22,11 @@ echo "                        .."
 echo ""
 echo " 🚀 join channel Airdrop Sambil Rebahan : https://t.me/kingfeeder "
 echo ""
+
 echo ""
 echo "🚀 Menginstall dependencies..."
 sudo apt update
-sudo apt install -y python3 python3-pip
+sudo apt install -y python3 python3-pip -y
 
 echo ""
 echo "📦 Menginstall python packages..."
@@ -42,4 +43,5 @@ fi
 
 echo ""
 echo "✅ Instalasi selesai!"
-echo "👉 Jalankan bot
+echo "👉 Jalankan bot dengan perintah:"
+echo "python3 bot.py"
