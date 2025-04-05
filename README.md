@@ -27,3 +27,15 @@ cd reminder-telegram-BOT
 chmod +x install.sh
 ./install.sh
 ```
+3. **ubah token**
+```bash
+nano .env
+```
+5. **jalankan venv**
+```bash
+source venv/bin/activate
+```
+6. **jalankan script**
+```bash
+python3 bot.py
+```
