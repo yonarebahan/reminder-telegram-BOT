@@ -20,4 +20,5 @@ Bot Telegram ini memungkinkan kamu untuk mengatur pengingat (reminder) berdasark
 ```bash
 git clone https://github.com/usernamekamu/telegram-reminder-bot.git
 cd telegram-reminder-bot
-
+```
+2
