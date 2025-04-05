@@ -23,25 +23,21 @@ echo ""
 echo " 🚀 join channel Airdrop Sambil Rebahan : https://t.me/kingfeeder "
 echo ""
 
-echo "📦 Membuat virtual environment..."
+# Buat virtual environment
+echo "[*] Membuat virtual environment..."
 python3 -m venv venv
 
-echo "✅ Mengaktifkan virtual environment..."
+# Aktifkan virtual environment
+echo "[*] Mengaktifkan virtual environment..."
 source venv/bin/activate
 
-echo "📦 Menginstall dependencies..."
+# Upgrade pip
+echo "[*] Meng-upgrade pip..."
+pip install --upgrade pip
+
+# Install dependencies
+echo "[*] Menginstall dependencies..."
 pip install -r requirements.txt
 
-if [ -f ".env" ]; then
-    echo "⚠️  File .env sudah ada, tidak disalin ulang."
-else
-    if [ -f ".env.example" ]; then
-        echo "📄 Menyalin .env.example ke .env..."
-        cp .env.example .env
-    else
-        echo "❌ Tidak menemukan file .env.example. Silakan buat manual."
-    fi
-fi
-
-echo ""
-echo "✅ Instalasi selesai!"
+echo "✅ Selesai! Jalankan bot dengan:"
+echo "source venv/bin/activate && python bot.py"
