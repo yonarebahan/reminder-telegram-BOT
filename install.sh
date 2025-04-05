@@ -22,21 +22,24 @@ echo "                        .."
 echo ""
 echo " 🚀 join channel Airdrop Sambil Rebahan : https://t.me/kingfeeder "
 echo ""
+echo ""
+echo "🚀 Menginstall dependencies..."
+sudo apt update
+sudo apt install -y python3 python3-pip
 
-# Buat virtual environment
-echo "[*] Membuat virtual environment..."
-python3 -m venv venv
+echo ""
+echo "📦 Menginstall python packages..."
+pip3 install -r requirements.txt
 
-# Aktifkan virtual environment
-echo "[*] Mengaktifkan virtual environment..."
-source venv/bin/activate
+echo ""
+echo "📁 Membuat file .env jika belum ada..."
+if [ ! -f .env ]; then
+    cp .env.example .env
+    echo "✅ .env berhasil dibuat dari .env.example"
+else
+    echo "ℹ️  File .env sudah ada, dilewati."
+fi
 
-# Upgrade pip
-echo "[*] Meng-upgrade pip..."
-pip install --upgrade pip
-
-# Install dependencies
-echo "[*] Menginstall dependencies..."
-pip install -r requirements.txt
-
-echo "✅ install script Selesai! 
+echo ""
+echo "✅ Instalasi selesai!"
+echo "👉 Jalankan bot
