@@ -20,7 +20,7 @@ echo "                 .~?5BBBBBBBBPJ~."
 echo "                     :!YGGY7:"
 echo "                        .."
 echo ""
-echo "          🚀 join channel : https://t.me/kingfeeder "
+echo " 🚀 join channel Airdrop Sambil Rebahan : https://t.me/kingfeeder "
 echo ""
 
 echo "📦 Membuat virtual environment..."
