@@ -31,7 +31,7 @@ chmod +x install.sh
 ```bash
 nano .env
 ```
-6. **jalankan script**
+4. **jalankan script**
 ```bash
 python3 bot.py
 ```
