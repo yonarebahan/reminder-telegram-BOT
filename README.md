@@ -1,6 +1,6 @@
-# 🤖 Telegram Reminder Bot - REBAHAN Edition
+# 🤖 Telegram Reminder Bot - by Airdrop Sambil Rebahan
 
-Bot Telegram ini memungkinkan kamu untuk mengatur pengingat (reminder) berdasarkan waktu tertentu atau harian (`daily`) dengan pesan dan link khusus.
+Bot Telegram ini memungkinkan kamu untuk mengatur pengingat (reminder) berdasarkan waktu tertentu yang ditentukan berisi link garapanmu.
 
 ---
 
