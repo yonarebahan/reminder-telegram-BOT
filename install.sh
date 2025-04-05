@@ -39,5 +39,4 @@ pip install --upgrade pip
 echo "[*] Menginstall dependencies..."
 pip install -r requirements.txt
 
-echo "✅ Selesai! Jalankan bot dengan:"
-echo "source venv/bin/activate && python bot.py"
+echo "✅ install script Selesai! 
