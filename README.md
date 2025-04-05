@@ -15,10 +15,15 @@ Bot Telegram ini memungkinkan kamu untuk mengatur pengingat (reminder) berdasark
 
 ## 📦 Instalasi
 
-1. **Clone repositori:**
+1. **Clone repositori**
 
 ```bash
 git clone https://github.com/usernamekamu/telegram-reminder-bot.git
 cd telegram-reminder-bot
 ```
-2.
+2. **jalankan script auto install**
+
+```bash
+chmod +x install.sh
+./install.sh
+```
