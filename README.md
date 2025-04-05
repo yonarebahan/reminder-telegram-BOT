@@ -31,10 +31,6 @@ chmod +x install.sh
 ```bash
 nano .env
 ```
-5. **jalankan venv**
-```bash
-source venv/bin/activate
-```
 6. **jalankan script**
 ```bash
 python3 bot.py
